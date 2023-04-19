@@ -1,3 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --text-color: #FEE5D1;
+    --spaceBetweenSections: 40px;
+    --spaceBetweenTitles: 20px;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.wrapper {
+    width: 50%;
+    height: 1200px;
+    display: flex;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+/* LEFT SIDE STARTS */
 img {
     height: 200px;
+    border-radius: 100px;
+    margin-bottom: 50px;
+    /* ¿Qué falta aquí?*/
 }
+
+.profileInfo {
+    background-color: #484E5E;
+    color: var(--text-color);
+    padding: 50px;
+}
+
+.profile {
+    padding-bottom: 20px;
+}
+
+.profile :nth-child(3) {
+    padding-bottom: 10px;
+}
+
+.profile h3 {
+    font-weight: 100;
+}
+
+hr {
+    font-weight: 800;
+    /* esto no hace nada. Hace falta engordar la linea */
+}
+
+.personalInfo {
+    padding: 0px 0px var(--spaceBetweenSections);
+}
+
+.personalInfo h2,
+.personalInfo h3 {
+    margin-bottom: var(--spaceBetweenTitles);
+}
+
+.personalProfile {
+    margin: var(--spaceBetweenSections) 0px;
+}
+
+.aptitudes {
+    margin: var(--spaceBetweenSections) 0px;
+}
+
+/* LEFT SIDE ENDS */
+
+
+/*RIGHT SIDE STARTS */
+
+.history {
+    padding: var(--spaceBetweenSections);
+    background-color: #FEFFFA;
+}
+
+.history div {
+    width: 100%;
+    height: 40px;
+    background-color: var(--text-color);
+    display: flex;
+    align-items: center;
+}
+
+.history div h2 {
+    margin-left: 10px;
+    font-size: 18px;
+    font-weight: 900;
+    /* esto no hace nada ¿Por Qué? */
+}
+
+.jobExperience {
+    margin: 0px 0px var(--spaceBetweenSections) 0px;
+}
+
+.history article h3 {
+    margin: 10px 0px;
+}
+
+.jobExperience article,
+.eduExperience article {
+    margin: 0px 0px var(--spaceBetweenSections) 0px;
+}
+
+.eduExperience article h3 {
+    margin-top: var(--spaceBetweenTitles);
+
+}
+
+.eduExperience {
+    margin: 0px 0px 100px 0px;
+}
+
+/*LEFT SIDE ENDS*/
