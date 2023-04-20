@@ -18,8 +18,7 @@ body {
     width: 50%;
     height: 1200px;
     display: flex;
-    border: 1px solid black;
-    border-radius: 20px;
+
 }
 
 /* LEFT SIDE STARTS */
@@ -49,8 +48,8 @@ img {
 }
 
 hr {
-    font-weight: 800;
-    /* esto no hace nada. Hace falta engordar la linea */
+    border: 1px solid;
+    color: var(--text-color);
 }
 
 .personalInfo {
@@ -91,7 +90,7 @@ hr {
 .history div h2 {
     margin-left: 10px;
     font-size: 18px;
-    font-weight: 900;
+    font-weight: 100;
     /* esto no hace nada ¿Por Qué? */
 }
 
